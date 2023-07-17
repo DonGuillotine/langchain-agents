@@ -23,4 +23,4 @@ tools = [
 
 agent = initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
 
-agent.run("Who is the President of Nigeria? What is his current age raised to the 0.43 power?")
+agent.run("Who is the President of Nigeria? What is his current age raised to the 2 power?")
